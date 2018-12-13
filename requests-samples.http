@@ -1,0 +1,12 @@
+POST https://{WEBAPP_URL}/feedback HTTP/1.1
+
+{
+    "sentence": "I love yogobella",
+    "polarity" "0.93",
+    "correct": true
+} 
+
+###
+
+
+GET https://{WEBAPP_URL}/feedback HTTP/1.1
